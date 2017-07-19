@@ -1,0 +1,24 @@
+subprojects{
+    group 'com.epam.lab'
+    version '1.0-SNAPSHOT'
+
+    apply plugin: 'java'
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    test.testLogging.showStandardStreams = true
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile 'org.slf4j:slf4j-api:1.7.24'
+    }
+}
+
+
+
+
+
+
